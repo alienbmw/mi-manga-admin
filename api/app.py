@@ -10,7 +10,7 @@ from supabase import create_client, Client
 # Asegúrate de definirlas en la configuración de Vercel.
 SUPABASE_URL: str = os.environ.get("SUPABASE_URL", "https://xxfummgzkjxpvrzfutby.supabase.co") 
 SUPABASE_KEY: str = os.environ.get("SUPABASE_KEY", "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Inh4ZnVtbWd6a2p4cHZyemZ1dGJ5Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjIyNzUxMTcsImV4cCI6MjA3Nzg1MTExN30.expLJm8IhweMGmXtkCdqX5Ix0hotEgdzdBHrzTgisew")
-ADMIN_TOKEN: str = os.environ.get("ADMIN_TOKEN", "TOKEN_SECRETO_ADMIN") 
+ADMIN_TOKEN: str = os.environ.get("ADMIN_TOKEN", "xrellmzGachidaxmll_contrasenia&&1234gamalele") 
 SECRET_PASSWORD: str = os.environ.get("SECRET_PASSWORD", "mangas123") # Contraseña de login para demo
 
 # Inicialización del cliente Supabase
